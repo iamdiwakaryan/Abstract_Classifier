@@ -1,4 +1,7 @@
-# Abstract_Classifier
-Developed a sophisticated machine learning model aimed at automating the classification of sentences within research paper abstracts into five distinct categories: "Background," "Objective," "Methodology," "Result," and "Conclusion."
-Designed and implemented a hybrid model using a transformer, a character embedding model and a positional embedding model.
-Universal Sentence Encoder v5 (from Tensorflow Hub) is used as a transformer in the model.
+# Abstract Classifier: Biomedical Sentence Classification using Deep Learning
+A sequence classifier built using BiLSTM and TensorFlow to categorize sentences in biomedical abstracts into standard sections like Background, Objective, Methods, Results, and Conclusions. Inspired by real-world research workflows, this project demonstrates efficient preprocessing, model building, and evaluation on the PubMed 20k RCT dataset.
+# Technologies & Libraries
+Python 3
+TensorFlow / Keras
+NumPy, pandas, matplotlib, seaborn
+tf.data API for scalable input pipelines
